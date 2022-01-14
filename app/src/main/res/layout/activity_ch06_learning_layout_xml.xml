@@ -8,12 +8,6 @@
     android:layout_gravity="center"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-        android:text="This is Main XML"
-        />
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -26,7 +20,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="#ffff00">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -44,5 +39,20 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:text="Lake Stef"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:text="Button6(PaddingTop)"
+        android:backgroundTint="#0000ff"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:text="Button7(layout_marginLeft by 90)"
+        android:backgroundTint="#f000ff"
         />
 </LinearLayout>
