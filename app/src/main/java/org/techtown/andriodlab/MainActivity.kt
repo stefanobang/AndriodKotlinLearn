@@ -5,6 +5,7 @@ import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
+import android.view.View
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -41,6 +42,7 @@ class MainActivity : AppCompatActivity() {
             addView(address, WRAP_CONTENT,WRAP_CONTENT)
         }
 
+
         //setContentView(layout)
         //XML 화면 출력, 뷰 겍체 생성 완료
         //setContentView(R.layout.activity_main)
@@ -49,7 +51,8 @@ class MainActivity : AppCompatActivity() {
         //for ch06 XML file: R.layout.activity_ch06_learning_layout_xml
         //XML 화면 출력, 뷰 겍체 생성 완료
         //setContentView(R.layout.activity_ch06_learning_layout_xml)
-        setContentView(R.layout.activity_ch06_learning_visibility)
+        //setContentView(R.layout.activity_ch06_learning_visibility)
+        setContentView(R.layout.activity_ch06_learning_basic_views)
         //id 값으로 뷰 객체 확등
         //val buttonView1 = findViewById<TextView>(R.id.text1)
         //---------------------------------------------------------------------
