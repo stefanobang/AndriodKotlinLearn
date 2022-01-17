@@ -52,7 +52,8 @@ class MainActivity : AppCompatActivity() {
         //XML 화면 출력, 뷰 겍체 생성 완료
         //setContentView(R.layout.activity_ch06_learning_layout_xml)
         //setContentView(R.layout.activity_ch06_learning_visibility)
-        setContentView(R.layout.activity_ch06_learning_basic_views)
+        //setContentView(R.layout.activity_ch06_learning_basic_views)
+        setContentView(R.layout.activity_ch06_learning_basic_buttons_and_texteditors)
         //id 값으로 뷰 객체 확등
         //val buttonView1 = findViewById<TextView>(R.id.text1)
         //---------------------------------------------------------------------
