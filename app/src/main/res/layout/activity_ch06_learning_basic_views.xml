@@ -20,6 +20,56 @@
             android:textColor="#FF0000"
             android:textSize="20sp"
             android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Github link: https://github.com/stefanobang/AndriodKotlinLearn, Phone: 234-5678, email:123@hotmail.com"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:autoLink="web|email|phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="There was a drastic increase in cyberattacks
+            worldwide during the early months of the COVID pandemic.
+            To be specific, according to the Federal Bureau of Investigation (FBI),
+            three-quarters of early months' attacks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:maxLines="2"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background = "#000000"/>
+        <!--"아주 긴 문자열 출력 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LongText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:singleLine="true"
+            android:ellipsize="middle"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background = "#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LongText"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <!--"이미지 출력 -->
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:adjustViewBounds="true"
+            android:src = "@drawable/pain"/>
     </LinearLayout>
 
 </LinearLayout>
