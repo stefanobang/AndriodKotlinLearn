@@ -11,7 +11,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-
+import org.techtown.andriodlab.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
@@ -53,7 +53,18 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_ch06_learning_layout_xml)
         //setContentView(R.layout.activity_ch06_learning_visibility)
         //setContentView(R.layout.activity_ch06_learning_basic_views)
+        //button and texteditor:
         setContentView(R.layout.activity_ch06_learning_basic_buttons_and_texteditors)
+        //butterknife:
+        //setContentView(R.layout.activity_ch06_learning_basic_butterknife)
+        /*
+        val binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        binding.button1.setOnClickLisener{
+            binding.button1.visibility = View.INVISIBLE
+        }
+        */
+
         //id 값으로 뷰 객체 확등
         //val buttonView1 = findViewById<TextView>(R.id.text1)
         //---------------------------------------------------------------------

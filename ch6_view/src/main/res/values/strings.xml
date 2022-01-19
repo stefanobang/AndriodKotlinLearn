@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ch6_View</string>
+    <string name="main_desc">
+        고객님 정보를 보호하기 위해, 카톡 현재 비번 확인해주세요
+    </string>
+    <string name="password_txt">
+        비번이 기억않남?
+    </string>
+</resources>

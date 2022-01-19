@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_ch06_learning_basic_butterknife.xml" value="0.1" />
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_ch06_learning_basic_buttons_and_texteditors.xml" value="0.1" />
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_ch06_learning_basic_views.xml" value="0.1" />
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_ch06_learning_basivViews.xml" value="0.1796875" />
@@ -11,6 +12,7 @@
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_ch06_learning_visibility.xml" value="0.1796875" />
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_main.xml" value="0.4466666666666667" />
         <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/app/src/main/res/layout/activity_main2.xml" value="0.1" />
+        <entry key="..\:/Users/Stefano Bang/AndroidStudioProjects/AndriodLab/ch6_view/src/main/res/layout/activity_main.xml" value="0.1796875" />
       </map>
     </option>
   </component>
