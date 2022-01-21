@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_ch06_learning_visibility)
         //setContentView(R.layout.activity_ch06_learning_basic_views)
         //button and texteditor:
-        setContentView(R.layout.activity_ch06_learning_basic_buttons_and_texteditors)
+        //setContentView(R.layout.activity_ch06_learning_basic_buttons_and_texteditors)
         //butterknife:
         //setContentView(R.layout.activity_ch06_learning_basic_butterknife)
         /*
@@ -64,11 +64,11 @@ class MainActivity : AppCompatActivity() {
             binding.button1.visibility = View.INVISIBLE
         }
         */
-
         //id 값으로 뷰 객체 확등
         //val buttonView1 = findViewById<TextView>(R.id.text1)
         //---------------------------------------------------------------------
         //---------------------------------------------------------------------Ch07
+        setContentView(R.layout.activity_ch07_learning_emptyspace)
         //---------------------------------------------------------------------
     }
 }
