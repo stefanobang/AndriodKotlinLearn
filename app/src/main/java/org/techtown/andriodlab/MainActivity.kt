@@ -18,6 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         //이름 문자열 출력 TextView 생성
+        /*
         val name = TextView(this).apply{
             typeface = Typeface.DEFAULT_BOLD
             text = "Lake Stef"
@@ -41,6 +42,7 @@ class MainActivity : AppCompatActivity() {
             //addView(image, WRAP_CONTENT,WRAP_CONTENT)
             addView(address, WRAP_CONTENT,WRAP_CONTENT)
         }
+        */
 
 
         //setContentView(layout)
@@ -68,7 +70,10 @@ class MainActivity : AppCompatActivity() {
         //val buttonView1 = findViewById<TextView>(R.id.text1)
         //---------------------------------------------------------------------
         //---------------------------------------------------------------------Ch07
-        setContentView(R.layout.activity_ch07_learning_emptyspace)
+        //setContentView(R.layout.activity_ch07_learning_emptyspace)//07-01
+        //setContentView(R.layout.activity_ch07_learning_relativelayout)//07-02
+        //setContentView(R.layout.activity_ch07_learning_framelayout)//07-03
+        //setContentView(R.layout.activity_ch07_learning_gridlayout)//07-04
         //---------------------------------------------------------------------
     }
 }
