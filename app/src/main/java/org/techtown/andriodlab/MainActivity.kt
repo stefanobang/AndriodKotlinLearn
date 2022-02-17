@@ -74,6 +74,7 @@ class MainActivity : AppCompatActivity() {
         //setContentView(R.layout.activity_ch07_learning_relativelayout)//07-02
         //setContentView(R.layout.activity_ch07_learning_framelayout)//07-03
         //setContentView(R.layout.activity_ch07_learning_gridlayout)//07-04
+        setContentView(R.layout.activity_ch07_learning_constraintlayout)//07-05
         //---------------------------------------------------------------------
     }
 }
